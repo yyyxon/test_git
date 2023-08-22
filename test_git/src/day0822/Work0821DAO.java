@@ -14,6 +14,8 @@ public class Work0821DAO {
 	private static Work0821DAO wDAO;
 	
 	private Work0821DAO() {
+		//이것은 생성자
+		System.out.println("이것은 생성자");
 	}
 	
 	public static Work0821DAO getInstance() {
